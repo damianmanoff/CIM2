@@ -1,0 +1,29 @@
+.invernadero{
+	position: relative;
+}
+.sensor{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border: 1px solid red;
+}
+
+.ventilador{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border: 1px solid blue;
+}
+
+.estadoA{
+	background-color: green;
+}
+.estadoI{
+	background-color: red;
+}
+
+#content{
+	position: absolute;
+    top: 50px;
+    left: 50px;
+}
